@@ -1,0 +1,34 @@
+Vis SDK License
+
+Copyright (c) 2026 vis.uz. All rights reserved.
+
+This software (the "SDK") is proprietary. The source code is published so
+that integrators can inspect, build and audit it; publication does not make
+it open source.
+
+1. Permitted use. You may download, build and include the SDK, unmodified or
+   with modifications needed for integration, in your applications solely to
+   access the Vis identity verification service under a valid agreement with
+   vis.uz (a "Service Agreement").
+
+2. Restrictions. You may not (a) use the SDK, or any part of it, with any
+   service other than the Vis service; (b) sell, sublicense or redistribute
+   the SDK on its own or as part of another SDK or library; (c) remove or
+   alter this notice; or (d) use the SDK to circumvent, test against, or
+   build a competing product to the Vis service's security or anti-fraud
+   measures.
+
+3. Termination. This license ends automatically when your Service Agreement
+   ends or if you breach these terms. You must then stop distributing new
+   builds that include the SDK.
+
+4. No warranty. THE SDK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+   IN NO EVENT SHALL VIS.UZ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SDK OR ITS USE,
+   EXCEPT AS EXPRESSLY AGREED IN YOUR SERVICE AGREEMENT.
+
+Third-party components used by the SDK are licensed under their own terms.
+
+For licensing questions contact vis.uz.
