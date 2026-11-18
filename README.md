@@ -21,7 +21,7 @@ In `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/revolution-uz/vis-sdk-ios", from: "1.0.0")
+    .package(url: "https://github.com/revolution-uz/vis-sdk-ios", from: "1.0.1")
 ],
 targets: [
     .target(name: "YourApp", dependencies: [
@@ -30,7 +30,7 @@ targets: [
 ]
 ```
 
-In Xcode: **File > Add Package Dependencies…**, enter `https://github.com/revolution-uz/vis-sdk-ios`, choose "Up to Next Major Version" from `1.0.0`, and add the `VisSDK` library to your app target.
+In Xcode: **File > Add Package Dependencies…**, enter `https://github.com/revolution-uz/vis-sdk-ios`, choose "Up to Next Major Version" from `1.0.1`, and add the `VisSDK` library to your app target.
 
 ### CocoaPods
 
@@ -136,9 +136,9 @@ The SDK presents a full-screen controller from the view controller you pass. Fro
 | Reason | Tell the user |
 |---|---|
 | `.livenessFailed` | The live check did not pass (head turn, video, more than one face). Try again in good light, alone, facing the camera. |
-| `.faceMismatch` | The face did not match the document (in a selfie-only session: the person whose details were typed). |
+| `.faceMismatch` | The face did not match the face on the document. |
 | `.invalidDocument` | The document was not accepted (unreadable, expired, not a valid card, or not the person's card). |
-| `.documentDataMismatch` | The typed document number or birth date does not match the card. Type it again. |
+| `.documentDataMismatch` | The typed document number or birth date does not match the document. Type it again. |
 | `.unknown` | Generic failure. Categories added later reach older SDKs as `.unknown`, so always handle it. |
 
 ### Errors (`VisError`)
