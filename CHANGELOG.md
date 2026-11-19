@@ -2,6 +2,10 @@
 
 All notable changes to the Vis iOS SDK. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.2] — 2026-11-19
+
+- No changes on iOS; version aligned with the Android SDK 1.0.2.
+
 ## [1.0.1] — 2026-11-18
 
 - Documentation wording.
