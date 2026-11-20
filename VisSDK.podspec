@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'VisSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'Vis identity-verification SDK for iOS.'
   s.description      = <<-DESC
     Native iOS SDK for the Vis identity-verification platform: document capture
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.author           = 'vis.uz'
   s.source           = {
     :http   => "https://github.com/revolution-uz/vis-sdk-ios/releases/download/#{s.version}/VisSDK.xcframework.zip",
-    :sha256 => '2ff5abe2489a50afb892d85f74486aa29c23d25e2d2361802821950a99aeb716'
+    :sha256 => '0cf43e57262de7300a6dd4bba7ac4b1398c9374c2396e87f498dfe81d912e7b8'
   }
 
   s.platform         = :ios, '15.0'

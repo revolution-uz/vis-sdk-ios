@@ -21,7 +21,7 @@ In `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/revolution-uz/vis-sdk-ios", from: "1.0.2")
+    .package(url: "https://github.com/revolution-uz/vis-sdk-ios", from: "1.0.3")
 ],
 targets: [
     .target(name: "YourApp", dependencies: [
@@ -30,7 +30,7 @@ targets: [
 ]
 ```
 
-In Xcode: **File > Add Package Dependencies…**, enter `https://github.com/revolution-uz/vis-sdk-ios`, choose "Up to Next Major Version" from `1.0.2`, and add the `VisSDK` library to your app target.
+In Xcode: **File > Add Package Dependencies…**, enter `https://github.com/revolution-uz/vis-sdk-ios`, choose "Up to Next Major Version" from `1.0.3`, and add the `VisSDK` library to your app target.
 
 ### CocoaPods
 

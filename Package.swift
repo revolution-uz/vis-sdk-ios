@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "VisSDK",
-            url: "https://github.com/revolution-uz/vis-sdk-ios/releases/download/1.0.2/VisSDK.xcframework.zip",
-            checksum: "2ff5abe2489a50afb892d85f74486aa29c23d25e2d2361802821950a99aeb716"
+            url: "https://github.com/revolution-uz/vis-sdk-ios/releases/download/1.0.3/VisSDK.xcframework.zip",
+            checksum: "0cf43e57262de7300a6dd4bba7ac4b1398c9374c2396e87f498dfe81d912e7b8"
         )
     ]
 )

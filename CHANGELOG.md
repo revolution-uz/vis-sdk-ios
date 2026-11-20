@@ -2,6 +2,12 @@
 
 All notable changes to the Vis iOS SDK. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.3] — 2026-11-20
+
+- The positioning check uses the circle actually drawn on the screen. Before, it used a region sized for a 9:16 screen; on taller iPhones the preview shows only the middle of the camera frame, so recording could start with the face well off-centre in the clip. Recording now starts only when the face is inside the drawn circle, so the face is centred in the clip.
+- Fewer "frame gap exceeds 250 ms" failures: the video writer starts while the user is positioning instead of on the first recorded frame, and the camera keeps at least 15 frames per second in dim light. A clip that still has a frame gap is recorded again (shown as "Find better lighting") instead of ending the verification.
+- Smaller selfie clips on recent iPhones: the recorder drives the H.264 encoder (VideoToolbox) itself with a 2 Mbit/s average and a hard 2.5 Mbit/s cap per second. Before, the encoder treated the bit rate as a soft target and recent iPhones (e.g. 17 Pro Max) produced ~16 MB clips; a 9–11 s clip now stays under ~3.5 MB.
+
 ## [1.0.2] — 2026-11-19
 
 - No changes on iOS; version aligned with the Android SDK 1.0.2.
