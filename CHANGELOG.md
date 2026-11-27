@@ -2,6 +2,10 @@
 
 All notable changes to the Vis iOS SDK. This project follows [Semantic Versioning](https://semver.org).
 
+## [1.0.4] — 2026-11-27
+
+- Improved session cancellation. No API changes.
+
 ## [1.0.3] — 2026-11-20
 
 - The positioning check uses the circle actually drawn on the screen. Before, it used a region sized for a 9:16 screen; on taller iPhones the preview shows only the middle of the camera frame, so recording could start with the face well off-centre in the clip. Recording now starts only when the face is inside the drawn circle, so the face is centred in the clip.
